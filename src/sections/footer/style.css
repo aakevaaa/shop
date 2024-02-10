@@ -1,0 +1,121 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    padding: 140px 0 80px;
+    margin-top: -90px;
+    position: relative;
+    z-index: -2;
+}
+
+.footer-container {
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 33px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.footer-logo p {
+    width: 248px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 35px;
+}
+
+.footer-logo-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 148px;
+}
+
+ul li a.logo-circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.footer-column p {
+    text-align: left;
+}
+
+
+.footer-table {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer-column p.title {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.footer-nav li {
+    margin-bottom: 20px;
+}
+
+.footer-nav li:last-child{
+    margin-bottom: 0;
+}
+
+.footer-nav li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    width: 1040px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-payments {
+    display: flex;
+    justify-content: space-between;
+}

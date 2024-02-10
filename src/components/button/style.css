@@ -1,0 +1,8 @@
+a.button {
+    display: inline-block;
+    padding: 17px 65px;
+    border-radius: 62px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}

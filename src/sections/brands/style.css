@@ -1,0 +1,7 @@
+.brands-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 100px;
+    background-color: black;
+}

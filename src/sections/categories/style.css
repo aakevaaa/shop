@@ -1,0 +1,24 @@
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 100px 43px;
+    margin: 0 auto;
+    width: 1240px;
+}
+
+.categories-container h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.categories-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 43px;
+}

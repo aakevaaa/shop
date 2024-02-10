@@ -1,0 +1,56 @@
+.content {
+    background-color: #F2F0F1;
+    background-image: url("../../assets/bg.jpg");
+    height: 663px;
+}
+
+.content-container {
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    width: 577px;
+}
+
+h1 span {
+    text-decoration: underline;
+}
+
+.info-text {
+    padding: 32px 0;
+    width: 545px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a.content-button {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
+
+.content-numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 617px;
+}
+
+.numbers-block p.number {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+.numbers-block p.text {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}

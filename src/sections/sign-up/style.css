@@ -1,0 +1,30 @@
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.sign-up-text {
+    display: flex;
+    margin-left: 370px;
+}
+
+.sign-up-container p {
+    margin-right: 10px;
+}
+
+.sign-up-link {
+    color: #FFFFFF;
+    text-decoration: underline;
+}

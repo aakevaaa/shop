@@ -1,0 +1,21 @@
+.category-item {
+    width: 240px;
+    height: 240px;
+    background-color: #F0EEED;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: break-word;
+    cursor: pointer;
+}
+
+.category-item:hover {
+    border: 1px solid black;
+}
